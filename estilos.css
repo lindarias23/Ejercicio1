@@ -1,0 +1,44 @@
+/* estilos.css */
+
+body {
+    background-image: url('imagen\ 1.jpg'); /* Cambia 'tu-imagen-de-fondo.jpg' a la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2 {
+    color: purple; /* Texto morado */
+    text-align: center; /* Centra solo el título */
+    font-family:Tahoma, sans-serif, /* Cambia el tipo de letra del título */
+}
+
+h3 {
+    color: purple; /* Texto morado */
+    text-align: center; /* Centra solo el título */
+}
+
+.form-group {
+    background-color: #eee; /* Bloques de texto gris */
+    padding: 10px;
+    margin: 10px 0;
+}
+
+label {
+    color: purple; /* Texto morado */
+}
+
+select, input {
+    color: purple; /* Texto morado */
+}
+
+.btn-primary {
+    background-color: purple; /* Botón morado */
+    color: white; /* Texto blanco en el botón */
+    transition: background-color 0.3s; /* Transición de color al pasar el mouse */
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #6f42c1; /* Cambia el color al pasar el mouse */
+}
